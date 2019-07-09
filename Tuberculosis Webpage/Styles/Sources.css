@@ -1,0 +1,35 @@
+html{
+   background-color: #c1d9ff;
+}
+
+body {
+    font-family: serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 15;
+    overflow: hidden;
+    background-color: #8e8f91;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: 	#ADD8E6;
+}
+
+.active {
+    background-color: #507aed;
+}

@@ -1,0 +1,74 @@
+<head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 15;
+    overflow: hidden;
+    background-color: #8e8f91;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: 	#ADD8E6;
+}
+
+.active {
+    background-color: #507aed;
+}
+</style>
+</head>
+<body>
+
+
+<ul>
+  <li><a class="active" href="Tuberculosis.html">Home</a></li>
+  <li><a href="Awareness.html">Awareness</a></li>
+  <li><a href="Prevention.html">Prevention</a></li>
+  <li><a href="About%20Us.html">About Us</a></li>
+</ul>
+
+</body>
+<div class="topnav">
+<a class="active" href="Tuberculosis.html">Home</a>      
+<a href="Awareness.html">Awareness</a> 
+<a href="Prevention.html">Prevention</a>
+<a href="About%20Us.html">About Us</a>
+  </div>  
+  
+.topnav{
+background-color: #8e8f91;
+overflow: hidden;
+
+}
+
+.topnav{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px
+}
+
+.topnav a:hover {
+     background-color: 	#ADD8E6;
+     color: black
+}
+
+.topnav a.active{
+     background-color: #507aed;
+     color: black
+}
